@@ -60,7 +60,7 @@ class nslcd
 		default		=> "nslcd",
 	},
 
-	$uri				= undef,
+	$uri				= "ldapi:///",
 	$ldap_version			= undef,
 	$binddn				= undef,
 	$bindpw				= undef,
