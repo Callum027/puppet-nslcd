@@ -1,0 +1,8 @@
+name    'Callum027-nslcd'
+version '0.1.0'
+source 'https://github.com/Callum027/puppet-nslcd'
+author 'Callum027'
+license 'Apache License, Version 2.0'
+summary 'Puppet module for a daemon for NSS and PAM lookups using LDAP.'
+description 'Configure nslcd, an NSS/PAM lookup daemon for LDAP, to allow LDAP user login.'
+project_page 'https://github.com/Callum027/puppet-nslcd'
