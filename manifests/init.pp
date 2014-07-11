@@ -8,8 +8,6 @@
 #
 # === Examples
 #
-#  include nslcd
-#
 # === Authors
 #
 # Callum Dickinson <callum@huttradio.co.nz>
@@ -77,7 +75,8 @@ class nslcd
 	
 	$krb5_ccname			= undef,
 	
-	$base				= undef,
+	# TODO: autodetect base URI
+	$base,
 	$scope				= undef,
 	$deref				= undef,
 	$referrals			= undef,
