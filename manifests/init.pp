@@ -32,7 +32,7 @@ class nslcd
 
 	$kstart_packages		= $::osfamily ?
 	{
-		'Debian'	=> [ "k5start", "libpam-krb5" ],
+		'Debian'	=> [ "kstart", "libpam-krb5" ],
 		default		=> undef,
 	},
 
