@@ -118,7 +118,7 @@ class nslcd
 	# Configure packages to install.
 	if (is_string($krb5_ccname))
 	{
-		$packages = flatten($nslcd_packages, $kstart_packages)
+		$packages = flatten([ $nslcd_packages, $kstart_packages ])
 	}
 	else
 	{
