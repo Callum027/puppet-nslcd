@@ -20,8 +20,8 @@ class nslcd
 (
 	# Boolean variable to control whether or not we automatically
 	# configure /etc/nsswitch.conf for LDAP directory search.
-	$configure_nsswitch	=> true,
-	$nsswitch_conf		=> "/etc/nsswitch.conf",
+	$configure_nsswitch		= true,
+	$nsswitch_conf			= "/etc/nsswitch.conf",
 
 	# Packages to install.
 	$nslcd_packages			= $::osfamily ?
