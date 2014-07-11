@@ -137,7 +137,7 @@ class nslcd
 		owner	=> "root",
 		group	=> "root",
 		mode	=> "444",
-		content	=> template("nslcd/nslcd.conf"),
+		content	=> template("nslcd/nslcd.conf.erb"),
 	}
 
 	# Configure /etc/nsswitch.conf for LDAP directory search.
